@@ -15,7 +15,7 @@
 ******************************************************************************/
 
 //	Common URLs
-	$GLOBALS["url"]["home"] = "http://199.175.48.171/spectra/";
+	$GLOBALS["url"]["home"] = "http://URL HERE/spectra/";
 	$GLOBALS["url"]["theme"] = $GLOBALS["url"]["home"]."theme/themeless/";
 	
 //	Common Paths
