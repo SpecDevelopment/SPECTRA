@@ -12,3 +12,5 @@ located in the "doc" subdirectory.
 Developed by Jake Paysnoe (https://github.com/callmejake),
 SPECTRA is licensed under the MIT Software license and 
 Copyright © 2015 SPEC Development Team.
+
+Test Commit
