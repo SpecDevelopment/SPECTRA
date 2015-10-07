@@ -155,6 +155,15 @@ br {
 	clear:none;
 	}
 	
+#copy_left a:link, #copy_left a:visited {
+	text-decoration:none;
+	color:#010101;
+	}
+
+#copy_left a:hover, #copy_left a:active {
+	color:#aeaeae;
+	}
+
 #copy_right {
 	text-align:right;
 	
@@ -164,6 +173,15 @@ br {
 	clear:none;
 	}
 	
+#copy_right a:link, #copy_right a:visited {
+	text-decoration:none;
+	color:#010101;
+	}
+
+#copy_right a:hover, #copy_right a:active {
+	color:#aeaeae;
+	}
+
 
 /***********************************************
 	Menu Styling

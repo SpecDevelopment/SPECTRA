@@ -77,10 +77,14 @@
 	//	Attribution and copyright information
 		echo "	<div id=\"site_copyright\"> \n";
 		echo "		<div id=\"copy_left\"> \n";
-		echo "			SPECTRA Block Explorer By CallMeJake\n";
+		echo "			<a href=\"https://github.com/SpecDevelopment/spectra\" title=\"SPECTRA On GitHub\"> \n";
+		echo "				SPECTRA Block Explorer By Jake Paysnoe\n";
+		echo "			</a> \n";
 		echo "		</div> \n";
 		echo "		<div id=\"copy_right\"> \n";
-		echo "			Copyright &copy; 2015 SPEC Development Team \n";
+		echo "			<a href=\"https://github.com/SpecDevelopment/\" title=\"SPEC Development Team\"> \n";
+		echo "				Copyright &copy; 2015 SPEC Development Team \n";
+		echo "			</a> \n";
 		echo "		</div> \n";
 		echo "	</div> \n\n";
 
