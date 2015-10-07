@@ -9,6 +9,8 @@ For an outline of the installation procedure see the file
 For more detailed information see the file "readme.txt"
 located in the "doc" subdirectory.
 
+Example: http://dev.speccoin.com/spectra/
+
 Developed by Jake Paysnoe (https://github.com/callmejake),
 SPECTRA is licensed under the MIT Software license and 
-Copyright © 2015 SPEC Development Team.
+Copyright Â© 2015 SPEC Development Team.
