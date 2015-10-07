@@ -1,0 +1,23 @@
+This is a very brief installation guide for SPECTRA.
+
+For a more detailed explanation please see the file "readme.txt".
+
+1: Install and sync the node you will use
+
+2: Create a MySQL database for the block chain data
+
+2: Upload the SPECTRA files to your server
+
+3: Update paths in the file "/spectra.js"
+
+4: Update the include (require_once statement) path in the file "/utility/maint_crontab.php"
+
+5: Update the necessary information on the file "/lib/spectra_config.php"
+
+6: Execute the file "/utility/setup_build.php"
+
+7: Execute the file "/utility/setup_load.php"
+
+
+
+
