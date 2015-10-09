@@ -15,7 +15,8 @@
 ******************************************************************************/
 
 //	Common URLs
-	$GLOBALS["url"]["home"] = "http://URL HERE/spectra/";
+	$GLOBALS["url"]["home"] = "http://URL HERE/coin_name/";
+//	$GLOBALS["url"]["home"] = "http://URL HERE/";
 	$GLOBALS["url"]["theme"] = $GLOBALS["url"]["home"]."theme/themeless/";
 	
 //	Common Paths
@@ -121,7 +122,7 @@
 	require_once ($GLOBALS["path"]["lib"]."spectra_wrap_node.php");
 
 /******************************************************************************
-	Developed By Jake Paysnoe - Copyright © 2015 SPEC Development Team
+	Developed By Jake Paysnoe - Copyright Â© 2015 SPEC Development Team
 	SPEC Block Explorer is released under the MIT Software License.
 	For additional details please read license.txt in this package.
 ******************************************************************************/
