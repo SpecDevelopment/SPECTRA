@@ -4,7 +4,7 @@ function block_raw_pop (strHASH)
 	document.getElementById('raw_block_click').innerHTML='Click Here To Hide Raw Block Data';
 
 	document.getElementById('raw_block_display').style.display='block';
-	panel_fetch ('raw_block_display', 'http://199.175.48.171/spectra/block.php?raw=1&hash=' + strHASH);
+	panel_fetch ('raw_block_display', 'http://Path_TO/block.php?raw=1&hash=' + strHASH);
 }
 
 function block_raw_dump (strHASH)
@@ -22,7 +22,7 @@ function tx_raw_pop (strTX)
 	document.getElementById('raw_tx_click').innerHTML='Click Here To Hide Raw Transaction Data';
 
 	document.getElementById('raw_tx_display').style.display='block';
-	panel_fetch ('raw_tx_display', 'http://199.175.48.171/spectra/tx.php?raw=1&tx=' + strTX);
+	panel_fetch ('raw_tx_display', 'http://Path_TO/spectra/tx.php?raw=1&tx=' + strTX);
 }
 
 function tx_raw_dump (strTX)
@@ -39,7 +39,7 @@ function panel_fetch (strTARG, strURL)
 	var popREQ;
 	
 //	Let's have a loading gif
-	document.getElementById(strTARG).innerHTML = '<img src="http://199.175.48.171/spectra/theme/themeless/icon_load.gif" alt="Loading...">';
+	document.getElementById(strTARG).innerHTML = '<img src="http://Path_TO/theme/themeless/icon_load.gif" alt="Loading...">';
 
 //	All Browsers Do This Now
 	if (window.XMLHttpRequest) 
@@ -70,7 +70,7 @@ function panel_fetch (strTARG, strURL)
 }
 
 /******************************************************************************
-	Developed By Jake Paysnoe - Copyright © 2015 SPEC Development Team
+	Developed By Jake Paysnoe - Copyright Â© 2015 SPEC Development Team
 	SPEC Block Explorer is released under the MIT Software License.
 	For additional details please read license.txt in this package.
 ******************************************************************************/
