@@ -16,7 +16,6 @@
 
 //	Common URLs
 	$GLOBALS["url"]["home"] = "http://URL HERE/coin_name/";
-//	$GLOBALS["url"]["home"] = "http://URL HERE/";
 	$GLOBALS["url"]["theme"] = $GLOBALS["url"]["home"]."theme/themeless/";
 	
 //	Common Paths
