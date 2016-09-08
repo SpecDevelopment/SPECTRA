@@ -41,7 +41,8 @@ cd ../secp256k1
 ./autogen.sh
 ./configure
 make
-make clean
+make install
+git clean -dfx
 #
 ####Clone TAO Github - Build taod####
 cd ..
